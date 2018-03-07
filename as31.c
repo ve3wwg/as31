@@ -30,8 +30,10 @@ int main(int argc, char **argv)
 	int use_stdout=0, do_lst=0;
 	int r, i;
 
-	fprintf(stderr, "AS31 2.0b3 (beta), March 20, 2001\n");
-	fprintf(stderr, "Please report problems to: paul@pjrc.com\n\n");
+	fprintf(stderr,"AS31\n");
+
+//	fprintf(stderr, "AS31 2.0b3 (beta), March 20, 2001\n");
+//	fprintf(stderr, "Please report problems to: paul@pjrc.com\n\n");
 
 
 	if (argc < 2) {
